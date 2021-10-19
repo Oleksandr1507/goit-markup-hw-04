@@ -131,6 +131,14 @@ color:var(--primery-text-color);
     height: 12px;
     color: #757575;
 }
+.header-contact-item:hover,
+.header-contact-item:focus {
+    color: var(--acent-color);
+}
+
+
+
+
 .phone-icon {
     width: 16px;
     height: 12px;
@@ -427,6 +435,8 @@ flex-basis: calc(100% / 6 -30px);
 
 
 .client-icon {
+    width: 106px;
+    height: 60px;
     fill: #AFB1B8
 }
 
