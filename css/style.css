@@ -93,7 +93,7 @@ margin-right: 95px;
 }
 
 .header-link {
- font-weight: 600;
+ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -152,15 +152,12 @@ color:var(--primery-text-color);
 
 .hero {
 width: 1600px;
-height: 600px;
 background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),
 rgba(47, 48, 58, 0.4)),  
  url(../img/main.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-box-sizing: border-box;
-border-bottom: 1px solid blue;
 }
     
 
@@ -194,7 +191,7 @@ background-color: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 padding: 10px 32px;
-
+cursor: pointer;
 }
 
   
@@ -267,10 +264,7 @@ color: var(--primery-text-color);
     justify-content: center;
     display: block;
 }
-.benefits-link:hover .benefits-icon,
-.benefits-link:focus .benefits-icon {
-    fill: #2196F3;
-}
+
 
 
 .benefits-picture
@@ -332,10 +326,9 @@ flex-basis: calc(100% / 4 -30px);
  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
-
 box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
-
 box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+background-color: #FFFFFF;
 
 }
 .team-item:nth-child(-n + 1) {
@@ -352,8 +345,8 @@ margin-bottom: 10px;
 text-align: center;
 }
 
-.team-backdown {
-    margin-bottom: 30px;
+.team-info {
+    padding-top: 30px;
 }
 
 .team-text {
@@ -437,7 +430,9 @@ flex-basis: calc(100% / 6 -30px);
 .client-icon {
     width: 106px;
     height: 60px;
-    fill: #AFB1B8
+    fill: #AFB1B8;
+    color: rgba(175, 177, 184, 1);
+    
 }
 
 
@@ -463,6 +458,7 @@ flex-basis: calc(100% / 6 -30px);
 }
 
 .footer-logo {
+    display: block;
     margin-bottom: 20px;
 }
 .footer-item:not(:last-child) {
@@ -514,6 +510,9 @@ margin-bottom: 20px;
 .footer-social-list {
     background-color: rgba(255, 255, 255, 0.1);
 }
+.footer-icon {
+   fill: #FFFFFF;
+}
 
 
 
@@ -549,6 +548,7 @@ margin-bottom: 50px;
     flex-basis: calc(100% / 3 - 30px);
     margin-right: 30px;
     margin-bottom: 30px;
+    border: 1px rgba(238, 238, 238, 1);
 }
 .about-item:nth-child(3n) {
     margin-right: 0;
@@ -568,6 +568,7 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
 
 box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+cursor: pointer;
 
 }
 
@@ -587,8 +588,8 @@ color: var(--primery-text-color);
 .about-title-text {
    padding: 20px 24px;
 }
-.about-item:hover, 
-.about-item:focus  {
+.about-link:hover, 
+.about-link:focus  {
 box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
